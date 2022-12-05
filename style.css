@@ -1,0 +1,157 @@
+    body {
+        background-color: #EDC7B7;
+    }
+    
+    .top-header {
+        text-align: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav li {
+        display: inline-block;
+    }
+    
+    .home {
+        display: inline;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .h1-ab {
+        font-family: "lexend deca";
+        font-size: 30px;
+        text-align: center;
+        color: maroon;
+        align-items: center;
+    }
+    
+    .h1-ab2 {
+        font-family: "lexend deca";
+        font-size: 30px;
+        text-align: center;
+        color: maroon;
+        align-items: center;
+        margin-top: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .h1-ab3 {
+        font-family: "lexend deca";
+        font-size: 30px;
+        text-align: center;
+        color: maroon;
+        align-items: center;
+        margin-top: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .h1-ab4 {
+        font-family: "lexend deca";
+        font-size: 30px;
+        text-align: center;
+        color: maroon;
+        align-items: center;
+        margin-top: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .h1-home {
+        font-family: "lexend deca";
+        font-size: 30px;
+        color: maroon;
+        text-align: center;
+    }
+    
+    .p-ab {
+        font-family: "lexend deca";
+        border: 5px solid red;
+        padding: 20px;
+        border-radius: 50px 5px;
+        background-color: #AFD275;
+        margin: 50px;
+    }
+    
+    .p2-ab {
+        font-family: "lexend deca";
+        border: 5px solid red;
+        padding: 20px;
+        border-radius: 50px 5px;
+        background-color: #AFD275;
+        margin: 50px;
+    }
+    
+    .p3-ab {
+        font-family: "lexend deca";
+        border: 5px solid red;
+        padding: 20px;
+        border-radius: 50px 5px;
+        background-color: #AFD275;
+        margin: 50px;
+    }
+    
+    .p4-ab {
+        font-family: "lexend deca";
+        border: 5px solid red;
+        padding: 20px;
+        border-radius: 50px 5px;
+        background-color: #AFD275;
+        margin: 50px;
+    }
+    
+    .p-f {
+        font-family: "lexend deca";
+        margin: 50px;
+        text-align: center;
+        font-size: larger;
+    }
+    
+    .btn {
+        width: 6.5em;
+        height: 2.3em;
+        margin: 0.5em;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 0.625em;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        margin-top: 30%;
+    }
+    
+    button:hover {
+        color: black;
+    }
+    
+    button:after {
+        content: "";
+        background: white;
+        position: absolute;
+        z-index: -1;
+        left: -20%;
+        right: -20%;
+        top: 0;
+        bottom: 0;
+        transform: skewX(-45deg) scale(0, 1);
+        transition: all 0.5s;
+    }
+    
+    button:hover:after {
+        transform: skewX(-45deg) scale(1, 1);
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .img2 {
+        align-items: center;
+        margin: 20px;
+    }
