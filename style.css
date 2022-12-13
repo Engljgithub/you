@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: .5em;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+.main-nav {
+    text-align: center;
+    font-weight: lighter;
+    border-bottom: 1px solid black;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a::hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.h1-home,
+.h1-about,
+.h1-contact {
+    text-align: center;
+    font-family: "lexend deca";
+    margin-top: 20px;
+}
+
+.p-home {
+    margin-top: 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 20px;
+}
+
+.h2-home1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.p2-home {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: antiquewhite;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+.span-home3,
+.span-home4 {
+    margin-left: 50px;
+}
+
+.h2-gtkn {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.p-about {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: antiquewhite;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+button {
+    display: inline;
+    margin-bottom: 50px;
+}
+
+.btn1 {
+    background: transparent;
+    position: absolute;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(40, 144, 241);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.btn1 span {
+    margin: 10px;
+}
+
+.btn1::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.btn1:hover {
+    color: #fff;
+    border: 1px solid rgb(40, 144, 241);
+}
+
+.btn1:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(40, 144, 241);
+}
+
+.twt {
+    display: inline;
+    text-decoration: none;
+}
+
+.ins {
+    display: inline;
+    text-decoration: none;
+}
+
+.btn2 {
+    background: transparent;
+    position: absolute;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(81, 201, 54);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(81, 201, 54);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+.btn2 span {
+    margin: 10px;
+}
+
+.btn2::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.btn2:hover {
+    color: #fff;
+    border: 1px solid rgb(81, 201, 54);
+}
+
+.btn2:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(81, 201, 54);
+}
